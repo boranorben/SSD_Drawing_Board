@@ -35,9 +35,8 @@ public abstract class GObject {
 	}
 	
 	public void move(int dX, int dY) {
-		// TODO: Implement this method.
-		this.x = dX + width;
-		this.y = dY + height;
+		this.x += dX;
+		this.y += dY;
 	}
 
 	public final void paint(Graphics g) {
